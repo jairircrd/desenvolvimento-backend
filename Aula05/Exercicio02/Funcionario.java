@@ -1,21 +1,15 @@
 public class Funcionario {
-    private String nome;
-    private double salarioBase;
+    protected String nome;
+    protected String matricula;
+    protected double salarioBase;
 
-    public Funcionario(String nome, double salarioBase) {
+    public Funcionario(String nome, String matricula, double salarioBase) {
         this.nome = nome;
+        this.matricula = matricula;
         this.salarioBase = salarioBase;
     }
 
-    public double calcularPagamento() {
-        return salarioBase;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public double getSalarioBase() {
+    public double calcularSalario() {
         return salarioBase;
     }
 }
