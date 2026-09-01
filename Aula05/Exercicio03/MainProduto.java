@@ -18,3 +18,7 @@ public class MainProduto {
         System.out.println("Frete do produto digital: R$ " + produto2.calcularFrete());
     }
 }
+
+// ProdutoFisico e ProdutoDigital podem ser armazenados em uma variável
+// do tipo Produto porque ambas as classes herdam de Produto.
+// Isso permite utilizar polimorfismo.
