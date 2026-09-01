@@ -10,4 +10,10 @@ public class Supervisor extends Funcionario {
     public double calcularSalario() {
         return salarioBase + bonus;
     }
+
+    @Override
+public void exibirDados() {
+    super.exibirDados();
+    System.out.println("Bônus: R$ " + bonus);
+    }
 }
