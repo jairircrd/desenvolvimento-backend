@@ -12,4 +12,11 @@ public class Funcionario {
     public double calcularSalario() {
         return salarioBase;
     }
+
+    public void exibirDados() {
+    System.out.println("Nome: " + nome);
+    System.out.println("Matrícula: " + matricula);
+    System.out.println("Salário: R$ " + calcularSalario());
+        
+    }
 }
