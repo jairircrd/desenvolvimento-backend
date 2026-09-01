@@ -13,4 +13,11 @@ public class Operador extends Funcionario {
     public double calcularSalario() {
         return salarioBase + (horasExtras * valorHoraExtra);
     }
+
+    @Override
+public void exibirDados() {
+    super.exibirDados();
+    System.out.println("Horas extras: " + horasExtras);
+    System.out.println("Valor da hora extra: R$ " + valorHoraExtra);
+    }
 }
