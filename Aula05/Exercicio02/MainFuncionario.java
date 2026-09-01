@@ -16,7 +16,10 @@ public class MainFuncionario {
                 800.0
         );
 
-        System.out.println("Salário do operador: R$ " + operador.calcularSalario());
-        System.out.println("Salário do supervisor: R$ " + supervisor.calcularSalario());
+        operador.exibirDados();
+
+        System.out.println();
+
+        supervisor.exibirDados();
     }
 }
